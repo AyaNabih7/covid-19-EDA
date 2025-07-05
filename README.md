@@ -11,8 +11,7 @@ An interactive web app for **Exploratory Data Analysis (EDA)** of COVID‑19 dat
 - 🗓️ Filter by **date range** and **region**
 - 📈 Interactive visualizations:
   - Time-series line charts
-  - Country comparisons (bar charts)
-  - Pie charts of active vs recovered vs deaths
+  - Country comparisons (bar charts,histogram)
 - 🎛️ Clean and simple user interface using Streamlit widgets
 
 ---
@@ -61,15 +60,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
----
-
-## 📊 Visualizations
-
-* Total and daily confirmed/death/recovered cases
-* Country-wise bar charts
-* Active vs recovered vs deaths (pie charts)
-* Region-specific time series
 
 ---
 
