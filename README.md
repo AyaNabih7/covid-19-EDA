@@ -31,7 +31,8 @@ An interactive web app for **Exploratory Data Analysis (EDA)** of COVID‑19 dat
 ```
 
 covid-19-EDA/
-├── app.py               # Main Streamlit application
+├── Main.py              # Main Streamlit application
+├── Helper.py            # Functions
 ├── data/                # COVID-19 dataset(s)
 ├── pages/               # Optional Streamlit multi-page structure
 ├── requirements.txt     # Python dependencies
